@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-display: "Outfit", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-lic-blue: #3b1f0a;
+  --color-lic-gold: #c9a46e;
+  --color-lic-dark: #2d251e;
+
+  /* Overwrite tailwind blue colors to espresso/gold tints for a unified palette */
+  --color-blue-50: #faf6f0;   /* warm cream-espresso tint */
+  --color-blue-100: #f4eae0;  /* soft warm beige tint */
+  --color-blue-200: #eedecf;  /* elegant warm cream */
+  --color-blue-500: #c9a46e;  /* antique gold for links */
+  --color-blue-600: #b08d5b;  /* rich antique gold */
+  --color-blue-800: #552d0f;  /* dark espresso for hover */
+  --color-blue-900: #2d1607;  /* very dark espresso */
+
+  /* Remap the slate family to elegant warm wealth advisory cream/beige/bronze-earth tones */
+  --color-slate-50: #fdfbf7;   /* ultra light warm cream helper */
+  --color-slate-100: #faf3eb;  /* soft cream highlight */
+  --color-slate-200: #eedecf;  /* elegant warm cream/beige border */
+  --color-slate-300: #e0cca9;  /* slightly darker line/border */
+  --color-slate-400: #a18e77;  /* warm bronze/beige helper text */
+  --color-slate-500: #7a6a58;  /* premium bronze text */
+  --color-slate-600: #615243;  /* deep warm bronze text */
+  --color-slate-700: #493c2f;  /* elegant slate-brown font */
+  --color-slate-800: #2d251e;  /* deep private-banking brown-charcoal text */
+  --color-slate-900: #1b1612;  /* absolute dark brown-charcoal */
+}
+
+/* Custom modern scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(10, 61, 128, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(10, 61, 128, 0.4);
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(10, 61, 128, 0.08);
+}
+
+.success-pulse {
+  animation: pulse-border 2s infinite;
+}
+
+@keyframes pulse-border {
+  0% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(16, 185, 129, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+  }
+}

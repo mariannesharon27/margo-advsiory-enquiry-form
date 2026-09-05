@@ -1,0 +1,6 @@
+{
+  "name": "Margo Advisory Financial Portal",
+  "description": "A modern, highly secure client enquiry form for Margo Advisory lead tracking, complete with an interactive multi-step client portal, CSV exports, and a Google Sheets sync dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

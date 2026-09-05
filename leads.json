@@ -1,0 +1,106 @@
+[
+  {
+    "timestamp": "2026-09-05T02:08:16.189Z",
+    "id": "dbi6vxf6i",
+    "fullName": "Kenneth Rebello",
+    "dob": "1999-08-07",
+    "age": 27,
+    "phone": "919930074680",
+    "email": "marianne.sharon27@gmail.com",
+    "salaryRange": "₹5–10 lakh",
+    "margoHelp": [
+      "LIC / Life Insurance",
+      "Tax Planning",
+      "ITR Filing",
+      "Wealth Building / Investments"
+    ],
+    "existingInvestments": [
+      "LIC / Life Insurance",
+      "Tax Planning",
+      "ITR Filing",
+      "Wealth Building / Investments"
+    ],
+    "investmentPreference": "Monthly | Monthly: ₹2,000–₹5,000/mo",
+    "investmentBudget": "Monthly | Monthly: ₹2,000–₹5,000/mo",
+    "otherExistingInvestments": "Monthly | Monthly: ₹2,000–₹5,000/mo",
+    "additionalNotes": "nothing jut hope this works",
+    "status": "New",
+    "isDeleted": false
+  },
+  {
+    "timestamp": "2026-08-20T18:57:25.312Z",
+    "id": "9xxa9rb08",
+    "fullName": "Lisa",
+    "dob": "2008-12-09",
+    "age": 17,
+    "phone": "919930074680",
+    "email": "marianne.sharon27@gmail.com",
+    "salaryRange": "Below ₹5 lakh",
+    "margoHelp": [
+      "Mutual Funds",
+      "LIC / Life Insurance"
+    ],
+    "existingInvestments": [
+      "Mutual Funds",
+      "LIC / Life Insurance"
+    ],
+    "investmentPreference": "Lump Sum | Lump Sum: ₹25,000–₹1 lakh",
+    "investmentBudget": "Lump Sum | Lump Sum: ₹25,000–₹1 lakh",
+    "otherExistingInvestments": "Lump Sum | Lump Sum: ₹25,000–₹1 lakh",
+    "additionalNotes": "",
+    "status": "New",
+    "isDeleted": false
+  },
+  {
+    "timestamp": "2026-08-07T21:46:09.353Z",
+    "id": "zgb8hvc5d",
+    "fullName": "Marianne Gomes",
+    "dob": "1998-02-27",
+    "age": 28,
+    "phone": "919930074680",
+    "email": "marianne.sharon27@gmail.com",
+    "salaryRange": "Below ₹5 lakh",
+    "margoHelp": [
+      "LIC / Life Insurance",
+      "Retirement Planning",
+      "Tax Planning",
+      "Not Sure — I Need Guidance"
+    ],
+    "existingInvestments": [
+      "LIC / Life Insurance",
+      "Retirement Planning",
+      "Tax Planning",
+      "Not Sure — I Need Guidance"
+    ],
+    "investmentPreference": "Monthly | Monthly: ₹10,000–₹25,000/mo",
+    "investmentBudget": "Monthly | Monthly: ₹10,000–₹25,000/mo",
+    "otherExistingInvestments": "Monthly | Monthly: ₹10,000–₹25,000/mo",
+    "additionalNotes": "",
+    "status": "New",
+    "isDeleted": false
+  },
+  {
+    "timestamp": "2026-06-28T17:56:52.901Z",
+    "id": "uqvlbdv0e",
+    "fullName": "Alice Alexandria Gomes ",
+    "dob": "1995-07-09",
+    "age": 30,
+    "phone": "9820472420",
+    "email": "aalicceee1@gmail.com",
+    "salaryRange": "5-10 LPA",
+    "margoHelp": [
+      "LIC",
+      "Fixed Deposits"
+    ],
+    "existingInvestments": [
+      "LIC",
+      "Fixed Deposits"
+    ],
+    "investmentPreference": "",
+    "investmentBudget": "",
+    "otherExistingInvestments": "",
+    "additionalNotes": "10k",
+    "status": "New",
+    "isDeleted": false
+  }
+]
